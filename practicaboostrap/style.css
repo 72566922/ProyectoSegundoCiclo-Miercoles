@@ -1,0 +1,276 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+#btnAbrirModal {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#fondoOscuro {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.modalRegistroAdmin {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.modalRegistroAdmin h2 {
+    color: #333;
+}
+
+.modalRegistroAdmin label {
+    display: block;
+    margin: 10px 0;
+}
+
+.modalRegistroAdmin input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.modalRegistroAdmin button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btnCerrarModal {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+img{
+    padding: 15px auto;
+    margin: 10px ;
+    width: 300px;
+}
+
+
+.navbar{
+    padding: 2rem;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand img{
+    width: 100px;;
+}
+
+body{
+    background-image: url(./imgenesx/WhatsApp\ Image\ 2023-09-16\ at\ 12.23.49\ PM.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/*barra de navegacion*/
+
+.navbar{
+    padding: 2rem;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand img{
+    height: 100px;
+}
+
+/*dfadgdfahsfghs*/
+
+.parrafo img{
+    margin: 10px;
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+}
+
+.parrafo{
+    padding: 20px 20px;
+    font-size: 18px;
+    z-index: 1;
+    width: 80%;
+    line-height: 1.5;
+}
+
+/* Estilo para la caja de comentarios */
+.caja {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+
+.caja h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los comentarios */
+.comment {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el formulario de comentarios */
+.comment-form {
+    margin-top: 10px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.comment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.comment-form button:hover {
+    background-color: #0056b3;
+}
+
+.pi{
+    margin: 5px ;
+}
+
+.aea{
+    width: 50%;
+    margin: 15px auto;
+}
+
+.box{
+    padding: 0px;
+    width: 80%;
+    border-radius: 10% ;
+    border: 1px solid rgb(201, 113, 113);
+}
+
+.box ,.container, .parrafo{
+    margin: 5% auto;
+}
+
+h1{color: white;}
+
+.cabeza ,img, video{
+    
+    display: flex;
+    margin: 10px 20px;
+    width: 100px;
+}
+.cabeza{
+    justify-content: space-between;
+    width: 95%;
+    position: sticky;
+    top: 0;
+    margin: 5px auto;
+    padding: 0;
+    height: 120px;
+}
+video{
+    width: 300px;
+}
+
+
+
+.logo{
+    margin: 40px auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fondoOscuro {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.modalRegistroAdmin {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}

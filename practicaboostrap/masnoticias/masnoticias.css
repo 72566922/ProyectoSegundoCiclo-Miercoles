@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    height: 100vh;
+    background-image: url(/practicaboostrap/imgenesx/WhatsApp\ Image\ 2023-09-16\ at\ 12.23.49\ PM.jpeg);
+}
+
+
+
+.parrafo img{
+    margin: 10px;
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+
+}
+
+.parrafo{
+    padding: 20px 20px;
+    font-size: 18px;
+    z-index: 1;
+    width: 80%;
+    line-height: 1.5;
+
+}
+
+
+
+
+
+/*comentarios*/
+
+.caja{
+    margin: 5px auto;
+    width: 90%;
+}
+
+#comment-section {
+    margin-top: 20px;
+}
+
+#comments {
+    margin-bottom: 10px;
+}
+
+.comment {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+#comment-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#comment-form button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#comment-form button:hover {
+    background-color: #45a049;
+}
+
+
+

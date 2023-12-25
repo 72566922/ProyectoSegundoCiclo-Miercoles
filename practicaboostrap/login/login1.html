@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OK_DIARIO</title>
+    <link rel="stylesheet" href="./login2.css">
+</head>
+<body>
+    <header class="cabeza">
+        <div class="icono" style="display: block;margin-top: 1000px;">
+            <img src="/practicaboostrap/imgenesx/OKdiario.jpeg" alt="" style="width: 300px;">
+        </div>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html" style="color:white">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../trabajo miercoles/nosotros.html" style="color:white">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../trabajo miercoles/denuncias.html" tabindex="-1" aria-disabled="true" style="color:white">DENUNCIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../masnoticias/masnoticias.html" tabindex="-1" aria-disabled="true" style="color:white">MAS NOTICIAS SOBRE...</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../contactanos/int.html" tabindex="-1" aria-disabled="true" style="color:white">CONTACTANOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../login/login1.html" tabindex="-1" aria-disabled="true" style="color:white">REGISTRATE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class=" caja__trasera-login">
+                    <h3> ¿Ya tienes una cuenta registrada?</h3>
+                    <p> Iniciar sesión para dirigirte a la página</p>
+                    <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3> ¿Aún no tienes una cuentra registrada?</h3>
+                    <p> Registrarse para que puedas ser parte de OK diario</p>
+                    <button id="btn__registrarse">Registrarse</button>
+                </div>
+            </div>
+            <div class="contenedor__login-register">
+                <form action="" class="formulario__login">
+
+                    <h2> Iniciar Sesión</h2>
+                    <h2>OK diario</h2>
+                    <input type="text" name="usuario" placeholder=" usuario">
+                    <input type="password" name="password" placeholder="Contraseña">
+                    <button>Ingresar</button>
+                </form>
+
+                <form action="" class="formulario__register" id="formularioRegistro">
+
+                    <h2> Registrarse</h2>
+                    <input type="text" name="nombre" placeholder="Nombre Completo">
+                    <input type="text" name="email" placeholder="Correo Electrónico">
+                    <input type="text" name="usuario" placeholder="Usuario">
+                    <input type="password" name="password" placeholder="Contraseña">
+                    <button>Registrarse</button>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./login.js"></script>
+</body>
+</html>

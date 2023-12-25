@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OK_DIARIO</title>
+    <link rel="stylesheet" href="masnoticias.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/practicaboostrap/index.html" style="color:white">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/practicaboostrap/trabajo miercoles/nosotros.html" style="color:white">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/practicaboostrap/trabajo miercoles/denuncias.html" tabindex="-1" aria-disabled="true" style="color:white">DENUNCIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/practicaboostrap/masnoticias/masnoticias.html" tabindex="-1" aria-disabled="true" style="color:white">MAS NOTICIAS SOBRE...</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/practicaboostrap/contactanos/int.html" tabindex="-1" aria-disabled="true" style="color:white">CONTACTANOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/practicaboostrap/login/login1.html" tabindex="-1" aria-disabled="true" style="color:white">REGISTRATE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-md navbar-light navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"  style="background-color: aliceblue;" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand " href="#" class="">
+                    <img src="/practicaboostrap/imgenesx/OKdiario.jpeg" alt="" >
+                </a>
+                <div class="pi">
+                    <input class="form-control me-2" type="search" id="searchInput" placeholder="Search" aria-label="Search" class="form-control me-2">
+                    <div id="searchResults"></div>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">City</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">State</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+        </div>
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/practicaboostrap/img/paz.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/practicaboostrap/img/mapa.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/practicaboostrap/img/palevsisra.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="parrafo">
+                <img src="/practicaboostrap/imgenesx/pleno 2023-09-16 at 1.25.11 PM.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni doloremque veritatis aliquam facilis eveniet sequi quae, possimus iste,
+                    dignissimo s soluta eius vitae praesentium voluptate nemo temporibus, natus iure perspiciatis ratione.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda at ullam nulla nobis alias neque 
+                    excepturi modi, aperiam minus sed quis corrupti nostrum maiores reprehenderit nemo in inventore dolores 
+                    necessitatibus?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque laboriosam laudantium culpa obcaecati eius,
+                    voluptates, assumenda iusto animi officiis velit est. Magnam debitis velit blanditiis. Commodi corrupti nemo alias. 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem id nam earum veritatis atque dolorem, deserunt sit dicta cumque illo excepturi? 
+                    Quisquam, quidem distinctio suscipit provident corrupti inventore placeat ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nesciunt 
+                    distinctio possimus autem aut eos alias id laboriosam eligendi assumenda. Et, saepe aut corrupti ipsa nobis voluptatum repellendus ratione aliquid!
+                </p>
+            </div>
+            
+        </div>
+    </section>
+    <main class="aea">
+        <div id="comment-section" class="caja">
+            <h2>Comentarios</h2>
+            <div id="comments"></div>
+            <form id="comment-form">
+                <textarea id="comment-input" placeholder="Escribe tu comentario aquí"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script src="masnoticias.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
