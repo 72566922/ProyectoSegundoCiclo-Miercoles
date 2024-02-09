@@ -30,7 +30,7 @@ const swaggerSpec = {
 }
 
 const app = express();
-const port = 8000;
+const PORT = 8000;
 
 app.use(cors({ origin: '*' }));
 
@@ -46,7 +46,7 @@ app.use("/api-doc",swaggerUI.serve, swaggerUI.setup(swaggerJSdoc(swaggerSpec)));
 
 // Rutas
 app.get('/', (req, res) => {
-    res.send('Servicio Iniciado');
+  res.send('servicio iniciado');
   });
 
 mongoose
@@ -56,6 +56,8 @@ mongoose
   })
   .catch((error) => console.error(error));
 
-app.listen(port, () => {
-  console.log("Se ha iniciado la aplicación de NODE en el puerto " + port);
+
+
+app.listen(PORT, () => {
+  console.log(`Servidor creado http://localhost:${PORT}`);
 });
